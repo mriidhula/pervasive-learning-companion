@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --vsc-bg: #1e1e1e;
+  --vsc-sidebar: #252526;
+  --vsc-panel: #1e1e1e;
+  --vsc-titlebar: #3c3c3c;
+  --vsc-tab-active: #1e1e1e;
+  --vsc-tab-inactive: #2d2d2d;
+  --vsc-border: #3c3c3c;
+  --vsc-accent: #007acc;
+  --vsc-accent2: #569cd6;
+  --vsc-green: #4ec9b0;
+  --vsc-yellow: #dcdcaa;
+  --vsc-orange: #ce9178;
+  --vsc-purple: #c586c0;
+  --vsc-red: #f44747;
+  --vsc-comment: #6a9955;
+  --vsc-text: #d4d4d4;
+  --vsc-text-muted: #858585;
+  --vsc-text-dim: #4e4e4e;
+  --vsc-highlight: #264f78;
+  --vsc-hover: #2a2d2e;
+  --vsc-statusbar: #007acc;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-ui: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--vsc-bg);
+  color: var(--vsc-text);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
